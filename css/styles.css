@@ -1,0 +1,64 @@
+.img-fill, .fill-img {
+    padding: 0px;
+}
+#brand-link {
+    font-size: 31px;
+    color: #777;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+#brand-logo {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+/*PRIMER DIV*/
+#product-resume {
+}
+
+#resume-title {
+}
+
+#resume-image {
+}
+
+#resume-content {
+}
+
+.texto {
+    font-size: 31.25px;
+}
+.encabezado {
+    font-size: 49px;
+    font-weight: bold;
+}
+/*SEGUNDO DIV*/
+#product-benchmarking {
+}
+
+#benchmarking-title {
+}
+
+#benchmarking-left {
+}
+
+#benchmarking-image {
+}
+
+#benchmarking-right {
+}
+/*TERCER DIV*/
+#contact {
+}
+
+#contact-title {
+}
+
+#contact-form {
+}
+
+#contact-image {
+}

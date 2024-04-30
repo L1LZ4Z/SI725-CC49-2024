@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Starter Page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+<body>
+  <header>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a href="#"><img id="brand-logo" src="img/inNovate_logo.png" alt="Logo"></a>
+          <a id="brand-link" href="#">iU2S</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div id ="main-content" class="container-fluid">
+    <!--RESUMEN-->
+    <div class="row">
+      <div id="product-resume" class="col-md-12 col-sm-12 col-xs-12">
+        <div id="resume-title" class="col-md-12 col-sm-12 col-xs-12">
+          <h1 class="text-center encabezado">¿Qué es iU2S?</h1>
+        </div>
+        <div id="resume-image" class="col-md-6 col-sm-6 col-xs-6 fill-img">
+          <img src="img/About.jpg" alt="Univerisdad futurista" class="col-md-12 col-sm-12 col-xs-12 img-fill">
+        </div>
+        <div id="resume-content" class="col-md-6 col-sm-6 col-xs-6">
+          <p class="texto">
+            iU2S es un sistema inteligente de gestión de servicios universitarios diseñado para optimizar y mejorar la calidad de los servicios complementarios ofrecidos por las universidades. 
+            Utilizando dispositivos IoT integrados, iU2S facilita una distribución ágil de estos servicios. La red de dispositivos integrados también permite la recolección de 
+            datos en tiempo real, proporcionando al personal operativo y administrativo una poderosa herramienta para monitorear el 
+            cumplimiento de las normativas y analizar métricas clave para su mantenimiento y mejora contínua.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--RESUMEN-->
+
+    <!--BENCHMARK-->
+    <div class="row">
+      <div id="product-benchmarking" class="col-md-12 col-sm-12 col-xs-12">
+        <div id="benchmarking-title" class="col-md-12 col-sm-12 col-xs-12">
+          <h1 class="text-center encabezado">¿Por qué escoger iU2S?</h1>
+        </div>
+        <div id="benchmarking-left" class="col-md-4 col-sm-4 col-xs-4">
+          <!--UNA PARTE DE LAS VENTAJAS-->
+          <ul class="texto">
+            <li>Mayor comodidad, agilidad y seguridad en el control de acceso al campus</li>
+            <li>Monitorea el cumplimiento de jornadas laborales del personal y asistencia a clase de estudiantes</li>
+            <li>Recopilación de data en tiempo real de aforo y uso de servicios</li>
+          </ul>
+        </div>
+        <div id="benchmarking-image" class="col-md-4 col-sm-4 col-xs-4 fill-img">
+          <img src="img/Why_iU2S.jpg" alt="Data Analysis" class="col-md-12 col-sm-12 col-xs-12 img-fill">
+        </div>
+        <div id="benchmarking-right" class="col-md-4 col-sm-4 col-xs-4">
+          <!--OTRA PARTE DE LAS VENTAJAS-->
+          <ul class="texto">
+            <li>Automatización y agilización en la distribución de los servicios</li>
+            <li>Elaboración de reportes y análisis automático de la data recopilada </li>
+            <li>Incremento de la calidad percibida de los servicios</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--BENCHMARK-->
+
+    <!--FORM CONTACTO-->
+    <div class="row">
+      <div id="contact" class="col-md-12 col-sm-12 col-xs-12">
+        <div id="contact-title" class="col-md-12 col-sm-12 col-xs-12">
+          <h1 class="text-center encabezado">¡Contáctanos!</h1>
+        </div>
+        <div id="contact-form" class="col-md-6 col-sm-6 col-xs-6">
+          <!--CONTENIDO DEL FORMULARIO-->
+          <form action="#" method="post" class="texto">
+            <label for="nombre">Nombre del presentante legal:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+    
+            <label for="cargo">Nombre del cargo o departamento del representante:</label><br>
+            <input type="text" id="cargo" name="cargo" required><br><br>
+    
+            <label for="email">Correo electrónico del representante legal:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+    
+            <label for="telefono">Número telefónico del representante legal:</label><br>
+            <input type="tel" id="telefono" name="telefono" pattern="[0-9]{10}" required><br><br>
+    
+            <label for="consulta">Breve detalle de la consulta:</label><br>
+            <textarea id="consulta" name="consulta" rows="4" cols="50" required></textarea><br><br>
+    
+            <input type="submit" value="Enviar">
+        </form>
+        </div>
+        <div id="contact-image" class="col-md-6 col-sm-6 col-xs-6 fill-img">
+          <img src="img/Contact_Us.jpg" alt="Trusty Worker" class="col-md-12 col-sm-12 col-xs-12 img-fill">
+        </div>
+      </div>
+    </div>
+    <!--FORM CONTACTO-->
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
