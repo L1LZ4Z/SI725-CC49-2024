@@ -92,7 +92,7 @@ ul.beneficios li {
     margin-bottom: 15px;
 }
 
-@media(min-width: 1280px) {
+@media(min-width: 1281px) {
     .form-text-adapted {
         font-size: 1.5rem;
     }
@@ -100,6 +100,9 @@ ul.beneficios li {
 
 @media(max-width: 1280px) {
     .form-text-adapted {
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
+}
+.form-title {
+    padding-bottom: 10px;
 }
