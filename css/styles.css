@@ -38,7 +38,7 @@ h3 {
     font-size: 0.75rem;
 }
 
-/*Ajustes puntuales para la correcta visualización de la página*/
+/*Correcta visualización de la página*/
 nav.navbar.navbar-default.navbar-fixed-top {
     background-color: var(--gris-oscuro);
     display: flex;
@@ -47,7 +47,9 @@ nav.navbar.navbar-default.navbar-fixed-top {
     padding-left: 10px;
     padding-right: 10px;
 }
-body { padding-top: 100px; }
+body { 
+    padding-top: 110px; 
+}
 .input-group {
     width: 100%;
 }
@@ -91,6 +93,10 @@ body {
 ul.beneficios li {
     margin-bottom: 15px;
 }
+ul li a {
+    color: white;
+    font-size: 1.5rem;
+}
 .form-text-adapted {
     font-size: 1rem;
 }
@@ -99,4 +105,12 @@ ul.beneficios li {
 }
 #consulta {
     max-height: 50px;
+}
+#contact-image {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#contact-form {
+    padding-left: 30px;
+    padding-right: 30px;
 }
