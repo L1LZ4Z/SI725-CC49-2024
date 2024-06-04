@@ -3,6 +3,7 @@
     /*Tipografía*/
     font-size: 16px;
     --gris-oscuro: rgb(138,138,138);
+    --gris-mas-oscuro: rgb(71,71,71);
 }
 
 /*Asignacion de variables a las etiquetas y clases correspondientes*/
@@ -67,6 +68,12 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+
+    /* Idea para poner una imagen de fondo
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;*/
 }
 #main-content {
     flex: 1 0 auto;
@@ -92,9 +99,15 @@ body {
 }
 ul.beneficios li {
     margin-bottom: 15px;
+    
 }
 ul li a {
     color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+ul li a:hover {
+    color: var(--gris-mas-oscuro);
     font-size: 1.5rem;
 }
 .form-text-adapted {
