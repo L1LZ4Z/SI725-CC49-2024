@@ -50,6 +50,9 @@ nav.navbar.navbar-default.navbar-fixed-top {
 body { 
     padding-top: 110px; 
 }
+#main-content {
+    max-height: calc(100% - 110px);
+}
 .input-group {
     width: 100%;
 }
