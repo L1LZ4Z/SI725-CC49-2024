@@ -50,9 +50,6 @@ nav.navbar.navbar-default.navbar-fixed-top {
 body { 
     padding-top: 110px; 
 }
-#main-content {
-    max-height: calc(100% - 110px);
-}
 .input-group {
     width: 100%;
 }
@@ -112,8 +109,12 @@ ul li a {
 #contact-image {
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 15px;
 }
 #contact-form {
     padding-left: 30px;
     padding-right: 30px;
+}
+#resume-image {
+    padding-bottom: 15px;
 }
